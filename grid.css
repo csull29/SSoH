@@ -1,0 +1,280 @@
+@import url('https://fonts.googleapis.com/css?family=Sue+Ellen+Francisco');
+
+
+.container {
+	width: 100%; 
+	margin-right: auto;
+	margin-left: auto; /* Margin-left and right are set to auto to center the container */
+	font-family:'Sue Ellen Francisco', cursive;
+}
+.seven:first-child,.eight:first-child, .nine:first-child, .ten:first-child,.eleven:first-child,.five:first-child, .four:first-child, .three:first-child, .two:first-child, .one:first-child, .six:first-child { 
+	margin-left: 0; /* This line of code makes the left-most column align to the left of the screen */
+}
+.eleven {
+	width: 91.5%;
+	float: left;
+	margin-left: 2%;
+}
+.ten {
+	width: 83%;
+	float: left;
+	margin-left: 2%;
+}
+.nine {
+	width: 74.5%;
+	float: left;
+	margin-left: 2%;
+}
+.eight {
+	width: 66%;
+	float: left;
+	margin-left: 2%;
+}
+.seven {
+	width: 57.5%;
+	float: left;
+	margin-left: 2%;
+}
+.six {
+	width: 49%; 
+	float: left;
+	margin-left: 2%;
+}
+.five {
+	width: 40.5%;
+	margin-left: 2%;
+	float:left;
+}
+.four {
+	width: 31.5%;
+	float:left;
+	margin-left: 2%;
+}
+.three {
+	width: 23.5%;
+	float:left;
+	margin-left: 2%;
+}
+.two {
+	width: 15%;
+	float:left;
+	margin-left: 2%;
+}
+.one {
+	width: 6.5%;
+	float:left;
+	margin-left: 2%;
+}
+.row {
+	width: 100%;
+	clear: both; 
+	padding: 0px;
+	margin: 0px;
+}
+header {
+	height:150px;
+	width:100%;
+	background-color: #000000;
+	font-family:'Sue Ellen Francisco', cursive;
+}
+.hero-image {
+	height: 510px;
+	background-repeat: no repeat;
+	background-size: cover;
+}
+
+#nav ul {
+float:center;
+}
+#nav ul li a{
+	font-size:25px;
+	display:inline-block;
+	list-style:none;
+	float:center;
+	margin-left:20px;
+}
+.donate ul li a {
+	float:right;
+	margin-right: 20px;
+}
+.row3 .three, .row3 .six {
+	height: 370px;
+	background-color: #000000;
+	float:left;
+}
+.row4 .six, .row4 .three {
+	height: 333px;
+	background-color: #000000;
+	
+}
+.row5 .six, .row5 .three {
+	height: 333px;
+	background-color: #000000;
+}
+.row6 .six, .row6 .three {
+	height: 333px;
+	background-color: #000000;
+}
+.last {
+	height: 73px;
+	background-color: #000000;;
+}
+.row3 .four {
+	background-color: #000000;
+}
+.row4 .three {
+	background-color: #000000;
+}
+.row5 .three {
+	background-color: #000000;
+}
+.row7 .three{
+	height: 333px;
+	background:#000000;
+	float:left;
+	padding-top: 0px;
+	margin-bottom:30px;
+	display:block;
+	list-style: none;
+	text-align:center;
+	font-size:150%;
+}
+.row7 .six {
+	width: 53%;
+}
+.row7 .three .social li {
+	list-style: none;
+	text-align:center;
+	width:80%;
+	display:inline-block;
+	margin-left:-35px;
+}
+li:after {
+	clear: both;
+}
+li:after, li:before{
+	content: "";
+	display: table;
+}
+.first, .second, .third, .fourth, .fifth, .sixth {
+	height:100%;
+	position:relative;
+	cursor:pointer;
+	-webkit-transition:0.3s ease-in-out, -webkit-transform 0.3s ease-in-out;
+	-moz-transition:0.3s ease-in-out, -moz-transform 0.3s ease-in-out;
+	transition:0.3s ease-in-out, transform 0.3s ease-in-out;
+}
+.first:hover{
+	
+	transform: scale(1.1);
+}
+.second:hover{
+	
+	transform: scale(1.1);
+}
+.third:hover{
+	
+	transform: scale(1.1);
+}
+.fourth:hover{
+	
+	transform: scale(1.1);
+}
+.fifth:hover{
+	
+	transform: scale(1.1);
+}
+.sixth:hover{
+	
+	transform: scale(1.1);
+}
+.last {
+	background-color: #000000;
+	color:#F89406;
+	font-size:150%;
+}
+.row3, .row4, .row5, .row6, .row7 {
+	padding-top:30px; 
+}
+.second {
+	background: linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.1));
+}
+#logo {
+	/*position: absolute;*/
+	float: left;
+	width: 100px;
+	height: 200px;
+	margin-left:30px;
+	background: url("hope.jpg") no-repeat left;
+}
+header {
+	width:100%;
+	height:150px;
+	z-index: 100;
+	font-family:'Sue Ellen Francisco', cursive;
+}
+body {
+	font-family:'Sue Ellen Francisco', cursive;
+	font-size: 10px;
+	color:#fff;
+	border: 0;
+	margin: 2;
+	background-color:white;
+}
+#nav ul {
+	list-style:none;
+	display: inline-block;
+	font-family:'Sue Ellen Francisco', cursive;
+}
+#nav ul.donate{
+	opacity:1;
+	color:#DD2C00;
+	height:20px;
+	width:15px;
+	font-weight:bold;
+}
+#nav ul.donate li a{
+	color:#DD2C00;
+	font-family:'Sue Ellen Francisco', cursive;
+	float:right;
+}
+#nav ul.donate li :hover{
+	background-color:fff;
+	font-family:'Sue Ellen Francisco', cursive;
+	float:right;
+	color:#DD2C00;
+}
+
+ul li {
+	display: inline-block;
+	font-size: 15px;
+}
+#nav ul li:hover{
+	transition:all .5s;
+}
+#nav ul li a{
+	color: #FF8F00;				
+	text-decoration: none;
+	font-weight: bold;
+	float:left;
+	display:inline-block;
+	list-style: none;
+}
+#nav ul li a:hover{
+	background-color: #FF8F00;	
+	text-decoration: underline;
+	opacity: .6;
+	color:#FFECB3;
+	font-family:'Sue Ellen Francisco', cursive;
+}
+li a {
+	color: white;
+	text-decoration:none;
+	font-size: 15px;
+	text-align:center;
+	font-family:'Sue Ellen Francisco', cursive;
+	padding:35px;
+}
+li a:hover {
+	text-decoration:underline;
+}
